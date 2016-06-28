@@ -31,7 +31,7 @@ export class Square extends Polygon {
     }
 }
 
-export class Circle extends {
+export class Circle extends Polygon {
 
     constructor(height, width) {
         super(height, width);
