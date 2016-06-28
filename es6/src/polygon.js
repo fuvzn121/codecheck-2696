@@ -10,8 +10,8 @@ export class Polygon {
 
 export class Rectangle extends Polygon {
 
-    constructor(height, width) {
-        super(height, width);
+    constructor(width) {
+        super(width);
         this.name = "Rectangle";
     }
 

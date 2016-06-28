@@ -1,8 +1,7 @@
 export class Person {
 
 
-  hello() {
-    return `Hello! My name is ${this.name}`;
-  }
+    hello(name) {
+        return `Hello! My name is ${this.name}`;
+    }
 }
-
